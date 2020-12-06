@@ -6,6 +6,7 @@ import time
 from colorama import Fore
 
 def __1__():
+    os.system("clear")
     my_list = ("""wordpress-importer
 regenerate-thumbnails
 wp-super-cache
