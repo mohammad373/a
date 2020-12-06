@@ -1017,7 +1017,7 @@ aweber-web-form-widget
         except:
             pass
     r = requests.get("http://" + target + "/wp-content/plugins/")
-    if r.status_code == 404 or r.status_code = 500:
+    if r.status_code == 404 or r.status_code == 500:
         try:
             print(Fore.RED + "Error : Your Target Is Not WordPress" + Fore.YELLOW + " :( ")
             time.sleep(2)
